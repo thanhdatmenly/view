@@ -4,5 +4,5 @@ from django.shortcuts import render
 
 
 def home(request):
-    data = "hello www"
+    data = "hello ww"
     return render(request, "app/home.html", {"data": data})
